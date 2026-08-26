@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #A90E02;
+    color : #fffbd4
+}
+
+h1{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 3em;
+}
+
+p{
+    font-size: 1.3em;
+}
+
+img{
+    height: 7rem;
+    border-radius: 45px;
+}
+
+#container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #fffbd4;
+    color: #A90E02;
+    height: 60vh;
+    width: 80vh;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+#from-block , #to-block{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.select{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#output{
+    font-size: 1.3em;
+    color: black;
+}
+
+#input{
+    border: none;
+    font-size: 1.3em;
+    background-color: transparent;
+    outline: none;
+    width: 11rem;
+}
+
+.value{
+    text-align: center;
+}
+
+button{
+    font-size: 1.5em;
+    width: 3rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #A90E02;
+    border: 2px solid #A90E02;
+}
+
+select{
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+#date{
+    margin-top: 1rem;
+    font-size: 1em;
+}
